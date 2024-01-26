@@ -1,0 +1,26 @@
+  <!--Testimonials-->
+  <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
+
+    <div class="row clearfix">
+
+        <div class="section-heading">
+            <h3>{{testm.title}}</h3>
+            <h2 class="section-title">{{testm.subtitle}}</h2>
+        </div>
+
+        <!--User Testimonial-->
+        @for (test of testm.test; track test) {
+        <blockquote class="col-3 testimonial classic">
+            <img src="{{test.img}}" alt="User"/>
+            <q>{{test.comnt}}</q>
+            <footer>{{test.name}}</footer>
+        </blockquote>
+    }
+        <!-- End of Testimonial-->
+
+       
+
+    </div>
+
+</aside>
+<!--End of Testimonials-->

@@ -1,0 +1,10 @@
+.ban{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myheader{
+    margin: 0px auto;
+    text-align: center;
+}
